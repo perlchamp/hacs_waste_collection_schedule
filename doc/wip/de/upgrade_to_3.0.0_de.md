@@ -28,6 +28,12 @@ Um das Upgrade anzustoßen:
   ![Upgrade ist verfügbar](pictures/Pre-release_aktivieren_3_50.png)
   *Abbildung: WCS--Pre-Update verfügbar*
 
-- auf `Update verfügbar` klicken -> auf `Aktualisieren` klicken, um WCS abschließend auf die aktuelle Version (hier: V 3.0.0-beta4) zu bringen
+- auf `Update verfügbar` klicken → auf `Aktualisieren` klicken, um WCS anschließend auf die aktuelle Version (hier: V 3.0.0-beta4) zu bringen
   ![Upgrade auf die aktuelle Version](pictures/WCS_upgraden_70.png)
   *Abbildung: WCS--Pre-Update verfügbar*
+- HA → Einstellungen → HA neu starten
+  ![HA neu starten](pictures/WCS_Restart_required.png)
+  *Abbildung: HA neu starten*
+
+  ![Neustart bestätigen](pictures/WCS_Restart_bestätigen.png)
+  *Abbildung: HA-Neustart bestätigen*
