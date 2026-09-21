@@ -1,6 +1,6 @@
 # Upgrade auf 3.0.0-alpha.1
 
-Um das Upgrade anzustoßen:
+## Das Upgrade anstoßen
 
 - HA → Einstellungen → Geräte & Dienste → HACS → Waste Collection Schedule
 
@@ -54,3 +54,7 @@ Um das Upgrade anzustoßen:
   ![Neustart bestätigen](pictures/WCS_Restart_bestätigen_ok.png)
   
   *Abbildung: HA-Neustart bestätigen*
+
+  ## Fazit
+
+  Bisher sind keinerlei Probleme mit der aktuellen Version aufgetreten. Alle Sensoren/Entitäten sind vollständig, und die Anzeigen auf dem Dashboard unverändert geblieben.
