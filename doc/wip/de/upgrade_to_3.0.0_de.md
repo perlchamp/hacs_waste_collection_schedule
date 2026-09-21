@@ -1,4 +1,4 @@
-# Upgrade auf 3.0.0-alpha.1
+# Upgrade auf die aktuelle Version
 
 ## Das Upgrade anstoßen
 
