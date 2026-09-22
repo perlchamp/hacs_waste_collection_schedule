@@ -5,7 +5,7 @@ To initiate the upgrade:
 - HA → Settings → Devices & Services → HACS → Waste Collection Schedule
 
 - in the `Diagnostics` area click on +1 `deactivated entity`
-  ![deactivated entity(s) in WCS](pictures/deaktivierte_entität_ok.png)
+  ![deactivated entity(s) in WCS](pictures/deaktivierte_Entität_ok.png)
   *Image: deactivated entity*
 
 - click on the `Pre-Release` switch in the `Diagnostics` area
