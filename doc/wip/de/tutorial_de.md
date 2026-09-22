@@ -71,7 +71,6 @@ Um *Waste Collection Schedule* zu installieren und anschließend zu konfiguriere
 
     Im Link jeweils alle Vorkommen der (konstanten) Jahreszahl (hier: `2026`) durch die Variable `{%Y}` ersetzen. Hier ist dies...
 
-    - `Speyer2026` ersetzen durch `Speyer{%Y}`
     - `Jahr=2026` ersetzen durch `Jahr={%Y}`
 
     ...wodurch bei jedem Download die aktuelle Jahreszahl generiert wird, so dass ein manuelles Downloaden oder das erneute Anpassen der URL zukünftig entfällt - im Besonderen nach einem Jahreswechsel:
@@ -80,7 +79,7 @@ Um *Waste Collection Schedule* zu installieren und anschließend zu konfiguriere
     sources: # enthält Infos über beziehungsweise für den Kalender
       - name: ics # "ics", falls der Dienstanbieter von wcs nicht unterstützt wird
         args:
-          url: https://www.stadtwerke-speyer.de/speyerGips/Gips?SessionMandant=Speyer&Anwendung=Abfuhrkalender&Methode=TermineAnzeigenICS&Mandant=Speyer&Abfuhrkalender=Speyer{%Y}&Bezirk_ID=17&Jahr={%Y}
+          url: https://www.stadtwerke-speyer.de/speyerGips/Gips?SessionMandant=Speyer&Anwendung=Abfuhrkalender&Methode=TermineAnzeigenICS&Mandant=Speyer&Abfuhrkalender=Speyer&Bezirk_ID=17&Jahr={%Y}
         calendar_title: "EBS Speyer" # der Name des Kalenders
         day_offset: 0 # 0; day_offset in Tagen, der zum Abholdatum addiert werden soll (darf *negativ* sein)
     fetch_time: "01:16" # zu welcher Zeit soll der tägliche (Update-)Download stattfinden
