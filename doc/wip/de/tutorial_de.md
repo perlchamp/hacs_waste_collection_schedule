@@ -111,7 +111,7 @@ Um *Waste Collection Schedule* zu installieren und anschließend zu konfiguriere
 #### (I) Duplicate Key
 
 Sollte es jetzt zu einer Fehleranzeige im Code durch *Studio Code Server* kommen, derart, dass einer oder gar beide Domäneneinträge (`sensor:` und/oder `template:`) als `duplikate Key` (doppelter Schlüssel) markiert werden, dann liegt dies daran, dass diese(r) Domänennamen bereits in der Datei `configuration.yaml` benutzt werden beziehungsweise benutzt wird.
-![duplikate Key in der configuration.yaml](pictures/configuration-yaml_duplicate-key.png)
+![duplikate Key in der configuration.yaml](pictures/configuration-yaml_duplicate-key_ok.png)
 *Abbildung: duplikate Key in der configuration.yaml*
 
 **Lösung:**  
@@ -1092,7 +1092,9 @@ So könnte beispielsweise eine Übersicht der wichtigen Abfallarten aussehen:
 *Abbildung: Übersicht der nächsten Entsorgung-Termine der unterschiedlichen Abfallarten*
 
 Und so könnte beispielsweise eine Erinnerung für das Herausstellen der Abfallbehälter aussehen:
+
 ![Erinnerung zur Abholung der entsprechenden Müllbehälter](pictures/Dashboard---WCS--Erinnerung_Abholung-optimized.gif)
+
 *Abbildung: Erinnerung zur Abholung der entsprechenden Müllbehälter*
 
 Herzlichen Glückwunsch !
