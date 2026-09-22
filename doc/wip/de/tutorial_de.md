@@ -1088,11 +1088,15 @@ views:
 ```
 
 So könnte beispielsweise eine Übersicht der wichtigen Abfallarten aussehen:
-![Übersicht der nächsten Entsorgung-Termine der unterschiedlichen Abfallarten](pictures/Dashboard---WCS--Termin_Abholung.png)
+![Übersicht der nächsten Entsorgung-Termine der unterschiedlichen Abfallarten](pictures/Dashboard---WCS--Termin_Abholung_ok.png)
 *Abbildung: Übersicht der nächsten Entsorgung-Termine der unterschiedlichen Abfallarten*
 
 Und so könnte beispielsweise eine Erinnerung für das Herausstellen der Abfallbehälter aussehen:
-![Erinnerung zur Abholung der entsprechenden Müllbehälter](pictures/Dashboard---WCS--Erinnerung_Abholung.png)
+![Erinnerung zur Abholung der entsprechenden Müllbehälter](pictures/Dashboard---WCS--Erinnerung_Abholung-optimized.gif)
 *Abbildung: Erinnerung zur Abholung der entsprechenden Müllbehälter*
 
 Herzlichen Glückwunsch !
+
+## Update auf eine aktuelle Version
+
+Wie man eine bereits installierte Version auf die aktuelle Version aktualisiert, kann man in [dieser deutschsprachigen Anleitung](upgrade_to_3.0.0_de.md) erfahren.
