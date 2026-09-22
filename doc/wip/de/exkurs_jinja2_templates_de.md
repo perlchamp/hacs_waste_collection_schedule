@@ -4,9 +4,9 @@
 
 Dieser kleine Exkurs behandelt *rudimentär* die Syntax und Semantik der Template-Engine. Da die Template-Engine sehr flexibel ist, kann die Konfiguration der Anwendung hinsichtlich der Trennzeichen und des Verhaltens undefinierter Werte geringfügig vom hier vorgestellten Code abweichen.
 
-Ein `Jinja2`-Template ist einfach eine Textdatei. `Jinja2` kann jedes textbasierte Format (`HTML`, `XML`, `CSV`, `LATEX` und so weiter...) generieren. Ein `Jinja2`-Template benötigt keine bestimmte Erweiterung wie beispielsweise .html, .xml oder jede andere Erweiterung.
+Ein `Jinja2`-Template ist einfach eine Textdatei. `Jinja2` kann jedes textbasierte Format (`HTML`, `XML`, `CSV`, `LATEX` und so weiter...) generieren. Ein `Jinja2`-Template benötigt keine bestimmte Erweiterung wie beispielsweise `.html`, `.xml` oder jede andere Erweiterung.
 
-Ein Template enthält Variablen und/oder Ausdrücke, die beim Rendern des Templates durch Werte ersetzt werden, und enthält ebenso Tags, welche die Logik des Templates steuern. Die Syntax hierbei ist stark von Django und Python inspiriert.
+Ein Template enthält Variablen und/oder Ausdrücke, die beim Rendern des Templates durch Werte ersetzt werden, und enthält ebenso Tags, welche die Logik des Templates steuern. Die Syntax hierbei ist stark von `Django` und `Python` inspiriert.
 
 Es gibt verschiedene Arten von Trennzeichen. Die standardmäßigen `Jinja2`-Trennzeichen sind wie folgt konfiguriert:
 
@@ -21,7 +21,7 @@ Welche Attribute eine Variable hat, hängt stark von der Anwendung ab, die diese
 
 Man kann anstelle der *Standard*-Python-`__getitem__`-'subscript'-Syntax [ ] auch einen Punkt (`.`) verwenden, um Zugriff auf die Attribute einer Variablen zu bekommen.
 
-Die folgenden Zeilen bewirken demnach dasselbe :
+Die folgenden Zeilen bewirken demnach dasselbe:
 
 ```yaml
 {{ foo.bar }}  
@@ -29,7 +29,7 @@ Die folgenden Zeilen bewirken demnach dasselbe :
 ```
 
 **Wichtig**:
-die äußeren doppelten geschweiften Klammern `{{` sind nicht Teil der Variablen, sondern der print-Anweisung. Wenn man auf Variablen innerhalb von Tags zugreifen möchte, dann darf man diese nicht in geschweifte Klammern setzen.
+die äußeren doppelten geschweiften Klammern `{{` sind nicht Teil der Variablen, sondern der `print`-Anweisung. Wenn man auf Variablen innerhalb von Tags zugreifen möchte, dann darf man diese nicht in geschweifte Klammern setzen.
 
 Ein Minus-Zeichen (`-`) trimmt das entsprechende Objekt davor (`{{-`, `{%-`) oder danach (`-}}`, `-%}`).
 
